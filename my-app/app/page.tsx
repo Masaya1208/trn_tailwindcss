@@ -87,7 +87,11 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="text-white">
-                  <h1>Subscribe to newsletter</h1>
+                  <div className="mt-4 inline-block">
+                    <a className="bg-pink-500 py-2 px-3 -ml-1 rounded-lg text-white font-bold flex hover:bg-pink-400">
+                      <h1>Subscribe to newsletter</h1>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="flex lg:justify-center px-6 lg:px-0 items-center mt-12 mb-6">
