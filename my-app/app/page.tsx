@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AirIcon from '@mui/icons-material/Air';
 
 export default function Home() {
   return (
@@ -11,6 +12,9 @@ export default function Home() {
           <div className="container mx-auto px-6">
             <nav className="flex items-center justify-between py-8 px-4 sm:px-0">
               <a className="w-1/4 text-primary font-bold text-2xl flex items-center space-x-2">
+                <div className="w-12 h-12 flex items-center justify-center flex-shrink-0">
+                  <AirIcon className="w-16 h-16"></AirIcon>
+                </div>
                 <h1 className="text-ui-secondary font-bold sm:block">TailwindTamplates</h1>
               </a>
               <div className="w-2/4 hidden lg:block">
