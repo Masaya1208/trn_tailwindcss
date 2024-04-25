@@ -66,6 +66,7 @@ export default function Home() {
             </section>
 
 
+
             </div>
           {/*フッダー*/}
           <div className=" bg-blue-500">
