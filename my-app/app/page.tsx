@@ -68,7 +68,7 @@ export default function Home() {
 
             </div>
           {/*フッダー*/}
-          <div>
+          <div className="bg-primary">
             <h1>About</h1>
             <h1>Me</h1>
             <h1>Contact</h1>
