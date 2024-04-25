@@ -68,17 +68,35 @@ export default function Home() {
 
             </div>
           {/*フッダー*/}
-          <div className="bg-primary">
-            <h1>About</h1>
-            <h1>Me</h1>
-            <h1>Contact</h1>
-            <h1>Disclaimer</h1>
-            <h1>Resources</h1>
-            <h1>Amazing tools</h1>
-            <h1>Blog</h1>
-            <h1>Subscribe to newsletter</h1>
-            <h1>Support Me on Ko-fi</h1>
-            <h1>Built with TALL stack & ♥ by J-hiz</h1>
+          <div className=" bg-blue-500">
+            <footer className="mx-auto container px-6 pt-24 pb-16">
+              <div className="grid lg:grid-cols-3 px-6 lg:px-0 gap-4">
+                <div className="text-white">
+                  <h1>About</h1>
+                  <ul className="space-y-1">
+                    <h1>Me</h1>
+                    <h1>Contact</h1>
+                    <h1>Disclaimer</h1>
+                  </ul>
+                </div>
+                <div className="text-white">
+                  <h1>Resources</h1>
+                  <ul className="space-y-1">
+                    <h1>Amazing tools</h1>
+                    <h1>Blog</h1>
+                  </ul>
+                </div>
+                <div className="text-white">
+                  <h1>Subscribe to newsletter</h1>
+                </div>
+              </div>
+              <div className="flex lg:justify-center px-6 lg:px-0 items-center mt-12 mb-6">
+                <h1>Support Me on Ko-fi</h1>
+              </div>
+              <div className="lg:justify-center items-center flex px-6 lg:px-0 text-white">
+                <h1>Built with TALL stack & ♥ by J-hiz</h1>
+              </div>
+            </footer>
           </div>
         </body>
 
