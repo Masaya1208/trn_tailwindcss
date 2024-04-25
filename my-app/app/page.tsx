@@ -97,6 +97,7 @@ export default function Home() {
                 <h1>Built with TALL stack & ♥ by J-hiz</h1>
               </div>
             </footer>
+            
           </div>
         </body>
 
